@@ -7,7 +7,7 @@ public class DoubleAnArray {
     // Method to return total sum of array
     public static int returnsumOfAr(int ar[]) {
         int sum = 0;
-        for (int i = 0; i < ar.length; i++) {
+	        for (int i = 0; i < ar.length; i++) {
             sum += ar[i];
         }
         return sum;
